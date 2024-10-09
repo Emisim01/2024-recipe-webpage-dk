@@ -42,13 +42,15 @@
   box-sizing: border-box;
 }
 
+
 body {
   background-color: #dddddd;
   font-family: "Roboto", sans-serif;
 }
 
 .container {
-  background-color:var(--background-color-dark-bg);
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(122,123,124,1) 100%);
   height: auto;
   width:var(--width-full);
 }
@@ -187,6 +189,8 @@ body {
   padding: 0 0 20px 0;
   width:var(--width-12col);
   margin:70px auto 0 auto;  
+
+  text-shadow: 1px 1px 3px var(--primary-color);
 }
 
 .todays_recipes_content {
@@ -205,6 +209,7 @@ body {
   border-radius:5px;
   display:flex;
   flex-direction:column;
+  box-shadow: 1px 1px 3px var(--background-color-dark-bg);
 }
 
 .todays_recipes_content_block_text_top h5 {
@@ -267,3 +272,67 @@ body {
   text-decoration: none;
   font-size:12px;
 }
+
+
+.category_selection_headline {
+  height:60px;
+  color:var(--color-white); 
+  border-bottom: 1px solid var(--color-white);
+  font-size:37px;
+  font-weight: 700;
+  text-transform: uppercase;
+  
+  display:flex;
+  justify-content: flex-start;
+  align-items:center;
+  padding: 0 0 20px 0;
+  width:var(--width-12col);
+  margin:70px auto 0 auto;  
+
+  text-shadow: 1px 1px 3px var(--primary-color);
+}
+
+.category_selection_box {
+margin: 28px auto auto;
+display: flex;
+background-color: var(--background-color-light);
+width: var(--width-12col);
+justify-content: space-between;
+padding: 10px 30px 10px 30px;
+text-transform: uppercase;
+border-radius: 5px ;
+}
+
+.category_selection_box_food_icon img {
+}
+
+.category_selection_box_food_first{
+  color: var(--category-veg);
+}
+
+.category_selection_box_food_second{
+color: var(--category-seafood);
+}
+
+.category_selection_box_food_third{
+color: var(--category-pasta);
+}
+
+.category_selection_box_food_fourth{
+  color: var(--category-chicken);
+  }
+
+.category_selection_box_food_fifth{
+color: var(--category-misc);
+}
+
+.category_selection_box_food_sixth{
+color: var(--category-meats);
+}
+
+.category_selection_box_food_seventh{
+color: var(--category-dessert);
+}
+
+
+
