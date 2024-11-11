@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recipe Site</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
+
 <body>
   <div class="container">
 
@@ -13,10 +16,10 @@
       <div class="menu-container">
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="/index.html">Home</a>
           </li>
           <li>
-            <a href="#">Recipe</a>
+            <a href="recipe.html">Recipes</a>
           </li>
           <li>
             <a href="#">About us</a>
@@ -24,7 +27,7 @@
         </ul>
       </div>
     </nav>
-    
+
 
     <section class="hero">
       <div class="hero-container">
@@ -34,6 +37,7 @@
           <p class="hero-text-small-header">40% healthy</p>
         </div>
         <div class="hero-search">
+          <i class="fa-solid fa-magnifying-glass"></i>
           <input type="search" name="" class="search-box" placeholder="Search">
 
         </div>
@@ -52,13 +56,64 @@
           </div>
           <div class="todays_recipes_content_block_text">
             <div class="todays_recipes_content_block_text_top">
+              <h5>Boozy Brown Lentil</h5>
+              <p>Lorem Ipsum is simply dummy text of the</p>
+            </div>
+            <div class="todays_recipes_content_block_text_bottom">
+              <div class="todays_recipes_content_block_bottom_area">
+                <div class="todays_recipes_content_block_bottom_area_left" data-category="seafood">
+                  <p id="cat-test" data-category="seafood"></p>
+                  <p>Recipe</p>
+                </div>
+                <div class="todays_recipes_content_block_bottom_area_right">
+                  <button>
+                    <a href="subpage.html">How to</a>
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="todays_recipes_content_block">
+          <div class="todays_recipes_content_block_image">
+            <img src="https://picsum.photos/300/175" alt="">
+          </div>
+          <div class="todays_recipes_content_block_text">
+            <div class="todays_recipes_content_block_text_top">
               <h5>FoodName</h5>
               <p>Lorem Ipsum is simply dummy text of the</p>
             </div>
             <div class="todays_recipes_content_block_text_bottom">
               <div class="todays_recipes_content_block_bottom_area">
-                <div class="todays_recipes_content_block_bottom_area_left">
-                  <p class="category-color category-seafood">Seafood</p>
+                <div class="todays_recipes_content_block_bottom_area_left" data-category="chicken">
+                  <p class="category-color" data-category="chicken">Chicken</p>
+                  <p>Recipe</p>
+                </div>
+                <div class="todays_recipes_content_block_bottom_area_right">
+                  <button>
+                    <a href="#">How to</a>
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="todays_recipes_content_block">
+          <div class="todays_recipes_content_block_image">
+            <img src="https://picsum.photos/300/175" alt="">
+          </div>
+          <div class="todays_recipes_content_block_text">
+            <div class="todays_recipes_content_block_text_top">
+              <h5>FoodName</h5>
+              <p>Lorem Ipsum is simply dummy text of the. Lorem Ipsum is simply dummy text of the. Lorem Ipsum is simply
+                dummy text of the </p>
+            </div>
+            <div class="todays_recipes_content_block_text_bottom">
+              <div class="todays_recipes_content_block_bottom_area">
+                <div class="todays_recipes_content_block_bottom_area_left" data-category="pasta">
+                  <p id="cat-test" data-category="pasta"></p>
                   <p>Recipe</p>
                 </div>
                 <div class="todays_recipes_content_block_bottom_area_right">
@@ -83,8 +138,11 @@
             <div class="todays_recipes_content_block_text_bottom">
               <div class="todays_recipes_content_block_bottom_area">
                 <div class="todays_recipes_content_block_bottom_area_left">
-                  <p class="category-color">Seafood</p>
-                  <p>Recipe</p>
+                  <div class="todays_recipes_content_block_bottom_area_left" data-category="seafood">
+                    <p id="cat-test" data-category="seafood"></p>
+                    <p>Recipe</p>
+                  </div>
+              
                 </div>
                 <div class="todays_recipes_content_block_bottom_area_right">
                   <button>
@@ -96,58 +154,8 @@
             </div>
           </div>
         </div>
-        <div class="todays_recipes_content_block">
-          <div class="todays_recipes_content_block_image">
-            <img src="https://picsum.photos/300/175" alt="">
-          </div>
-          <div class="todays_recipes_content_block_text">
-            <div class="todays_recipes_content_block_text_top">
-              <h5>FoodName</h5>
-              <p>Lorem Ipsum is simply dummy text of the. Lorem Ipsum is simply dummy text of the. Lorem Ipsum is simply dummy text of the </p>
-            </div>
-            <div class="todays_recipes_content_block_text_bottom">
-              <div class="todays_recipes_content_block_bottom_area">
-                <div class="todays_recipes_content_block_bottom_area_left">
-                  <p class="category-color">Seafood</p>
-                  <p>Recipe</p>
-                </div>
-                <div class="todays_recipes_content_block_bottom_area_right">
-                  <button>
-                    <a href="#">How to</a>
-                  </button>
-                </div>
 
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="todays_recipes_content_block">
-          <div class="todays_recipes_content_block_image">
-            <img src="https://picsum.photos/300/175" alt="">
-          </div>
-          <div class="todays_recipes_content_block_text">
-            <div class="todays_recipes_content_block_text_top">
-              <h5>FoodName</h5>
-              <p>Lorem Ipsum is simply dummy text of the</p>
-            </div>
-            <div class="todays_recipes_content_block_text_bottom">
-              <div class="todays_recipes_content_block_bottom_area">
-                <div class="todays_recipes_content_block_bottom_area_left">
-                  <p class="category-color">Seafood</p>
-                  <p>Recipe</p>
-                </div>
-                <div class="todays_recipes_content_block_bottom_area_right">
-                  <button>
-                    <a href="#">How to</a>
-                  </button>
-                </div>
 
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        
       </div>
 
     </section>
@@ -158,10 +166,10 @@
     </div>
 
     <div class="category_selection_box">
-      
+
       <div class="category_selection_box_food_first">
         <div class="category_selection_box_food_icon">
-          <img src="https://picsum.photos/37/37" alt="">
+          <i class="fa-solid fa-leaf" id="leaf-icon"></i>
         </div>
         <div class="category_selection_food_box_text"></div>
         <p>Vegetarian</p>
@@ -169,7 +177,7 @@
 
       <div class="category_selection_box_food_second">
         <div class="category_selection_box_food_icon">
-          <img src="https://picsum.photos/37/37" alt="">
+          <i class="fa-solid fa-fish" id="fish-icon"></i>
         </div>
         <div class="category_selection_food_box_text"></div>
         <p>Seafood</p>
@@ -177,7 +185,7 @@
 
       <div class="category_selection_box_food_third">
         <div class="category_selection_box_food_icon">
-          <img src="https://picsum.photos/37/37" alt="">
+          <i class="fa-solid fa-utensils" id="utensils-icon"></i>
         </div>
         <div class="category_selection_food_box_text"></div>
         <p>Pastas</p>
@@ -185,7 +193,7 @@
 
       <div class="category_selection_box_food_fourth">
         <div class="category_selection_box_food_icon">
-          <img src="https://picsum.photos/37/37" alt="">
+          <i class="fa-solid fa-drumstick-bite" id="chicken-icon"></i>
         </div>
         <div class="category_selection_food_box_text"></div>
         <p>Chicken</p>
@@ -193,7 +201,7 @@
 
       <div class="category_selection_box_food_fifth">
         <div class="category_selection_box_food_icon">
-          <img src="https://picsum.photos/37/37" alt="">
+          <i class="fa-solid fa-cookie-bite" id="cookie-icon"></i>
         </div>
         <div class="category_selection_food_box_text"></div>
         <p>Snacks</p>
@@ -201,7 +209,7 @@
 
       <div class="category_selection_box_food_sixth">
         <div class="category_selection_box_food_icon">
-          <img src="https://picsum.photos/37/37" alt="">
+          <i class="fa-solid fa-bacon" id="bacon-icon"></i>
         </div>
         <div class="category_selection_food_box_text"></div>
         <p>Beef/Pork</p>
@@ -209,19 +217,178 @@
 
       <div class="category_selection_box_food_seventh">
         <div class="category_selection_box_food_icon">
-          <img src="https://picsum.photos/37/37" alt="">
+          <i class="fa-solid fa-ice-cream" id="icecream-icon"></i>
         </div>
         <div class="category_selection_food_box_text"></div>
         <p>Dessert</p>
       </div>
     </div>
 
-    <section class="content_image"></section>
+    <section class="content_image">
+      <div class="content_image_form">
+        <div class="content_image_form_textbox">
 
-    <section class="content_area"></section>
+          <div class="content_image_form_textbox_small_top">
+            <p>In the kitchen</p>
 
-    <footer></footer>
+            <div class="content_image_form_textbox_middle">
+              <p>all-star showdown</p>
+
+              <div class="content_image_form_textbox_bottom">
+                <p> Big brawl in kitchen. Who takes it? Winner gets to take
+                  home
+                  the desserts! Losers can wave goodbye! </p>
+              </div>
+            </div>
+    </section>
+
+
+    <section class="content_area">
+
+      <div class="content_area_headline">
+        <h2>In the kitchen</h2>
+      </div>
+
+
+    </section>
+
+    <section>
+      <div class="content_area_containers">
+        <div class="content_area_box content_area_container">
+
+          <div class="content_area_container_textbox_1">
+            <p>In the kitchen</p>
+          </div>
+          <div class="content_area_container_textbox_2">
+            <p>How to plate as a pro</p>
+          </div>
+          <div class="content_area_container_textbox_3">
+            <p>Plating techniques - no salt bae crap. See how to properly arrange and design a plate.</p>
+          </div>
+          <div class="content_area_container_button">
+            <button>
+              <a href="#">Plating</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="content_area_box content_area_container_image"></div>
+
+        <div class="content_area_box content_area_container_image_midt"></div>
+
+        <div class="content_area_box content_area_container_midt">
+          <div class="content_area_container_textbox_4">
+            <p>In the kitchen</p>
+          </div>
+          <div class="content_area_container_textbox_5">
+            <p>recipes are for...</p>
+          </div>
+          <div class="content_area_container_textbox_6">
+            <p>Big brawl in kitchen. Who takes it?
+              Winner gets to take home the desserts!
+              Losers can wave goodbye! </p>
+          </div>
+          <div class="content_area_container_button">
+            <button>
+              <a href="#">Recipe</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="content_area_box content_area_container_bund">
+          <div class="content_area_container_textbox_7">
+            <p>In the kitchen</p>
+          </div>
+          <div class="content_area_container_textbox_8">
+            <p>meats - how to baste</p>
+          </div>
+          <div class="content_area_container_textbox_9">
+            <p>Big brawl in kitchen. Who takes it?
+              Winner gets to take home the desserts!
+              Very scrumptious!</p>
+          </div>
+          <div class="content_area_container_button">
+            <button>
+              <a href="#">Guides</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="content_area_box content_area_container_image_bund"></div>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="footer">
+        <div class="footer_container">
+          <div class="footer_container_big_box">
+            <div class="footer_container_big_box_half left">
+              <div class="footer_container_big_box_half_left_twobox">
+                <div class="footer_container_youtube">
+                  <i class="fa-brands fa-youtube"></i>
+                  <div class="footer_container_youtube_text">
+                    <p>YouTube</p>
+                  </div>
+                </div>
+                <div class="footer_container_instagram">
+                  <i class="fa-brands fa-square-instagram"></i>
+                  <div class="footer_container_instagram_text">
+                    <p>instagram</p>
+                  </div>
+                </div>
+                <div class="footer_container_facebook">
+                  <i class="fa-brands fa-facebook"></i>
+                  <div class="footer_container_facebook_text">
+                    <p>Facebook</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="footer_container_big_box_half_left_twobox">
+                <div class="footer_container_textbox_left_top">
+                  <p>home</p>
+                </div>
+                <div class="footer_container_textbox_left_middle">
+                  <p>Recipe</p>
+                </div>
+                <div class="footer_container_textbox_left_bottom">
+                  <p>About us</p>
+                </div>
+
+              </div>
+            
+             
+            </div>
+
+            <div class="footer_container_big_box_half right">
+            <div class="footer_container_big_box_half_link1">
+              <p>https://open.spotify.com/track/4gRA0i5sxx3jAhHaVjPnUN?si=aaba07b09223416c</p>
+            </div>
+            <div class="footer_container_big_box_half_link2">
+              <p>https://open.spotify.com/album/6Xuu2z00jxRPZei4IJ9neK</p>
+            </div>
+            
+            <div class="footer_container_big_box_half_icon">
+              <i class="fa-solid fa-bolt-lightning"></i>
+            <div class="footer_container_big_box_half_icon_text_bottom">
+              <p>Etsy is powered by 100% 
+                renewable electricity.</p>
+            </div>
+          </div>
+            </div>
+          </div>
+
+       
+
+        </div>
+
+
+      </div>
+    </section>
 
   </div>
 </body>
+
 </html>
