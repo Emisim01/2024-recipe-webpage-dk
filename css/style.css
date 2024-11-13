@@ -1290,9 +1290,6 @@ margin: 30px;
     padding: 5px 10px 20px 40px;
   }
 
-  .content_area_container_button {
-    padding: block;
-  }
+  .content_area_container_button {}
 
   }
-  
