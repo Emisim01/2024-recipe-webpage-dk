@@ -1213,3 +1213,86 @@ line-height: 0.8cm;
   line-height: 0.5cm;
 list-style-type: none;
 }
+
+
+/*mobil*/
+@media (width < 768px) {
+
+
+.menu-container ul li {
+  font-size: 30px;
+}
+
+  .todays_recipes_content {
+width: 100%;
+display: block;  
+margin: 30px;
+  }
+  
+  .todays_recipes_headline{
+    width: var(--width-full);
+}
+
+  .todays_recipe{
+      flex-direction: column;
+      align-items: center;
+      width: var(--width-full);
+  }
+
+  .category_selection_box{
+    display: none;
+  }
+  
+  .category_selection_headline{
+    display: none;
+  }
+
+  .content_image {
+    display: none;
+  }
+
+  .content_area_containers {
+    width: 100%;
+  }
+
+  .content_area_container_textbox_1 {
+    padding: 80px 10px 20px 40px;
+  }
+
+  .content_area_container_textbox_2 {
+    padding: 5px 10px 20px 40px;
+  }
+
+  .content_area_container_textbox_3 {
+    padding: 5px 10px 20px 40px;
+  }
+
+  .content_area_container_textbox_4 {
+    padding: 80px 10px 20px 40px;
+  }
+
+  .content_area_container_textbox_5 {
+    padding: 5px 10px 20px 40px;
+  }
+
+  .content_area_container_textbox_6 {
+    padding: 5px 10px 20px 40px;
+  }
+  .content_area_container_textbox_7 {
+    padding: 80px 10px 20px 40px;
+  }
+
+  .content_area_container_textbox_8 {
+    padding: 5px 10px 20px 40px;
+  }
+
+  .content_area_container_textbox_9 {
+    padding: 5px 10px 20px 40px;
+  }
+
+  .content_area_container_button {
+    padding: block;
+  }
+
+  }
+  
