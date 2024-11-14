@@ -154,6 +154,12 @@ body {
   color:var(--color-light);
 }
 
+.search-box i {
+position: absolute; 
+right: 10px;
+top: 50%;
+}
+
 /*secondpage*/
 .search-box_secondpage {
   background-color: transparent;
@@ -1214,21 +1220,60 @@ line-height: 0.8cm;
 list-style-type: none;
 }
 
+.custom_list {
+  list-style: none;
+  padding: 0;
+}
+
+.custom_list li{
+  position: relative;
+  margin: 10px 0;
+  padding-left: 40px;
+}
+
+.custom_list li::before {
+  content: attr(data-text);
+  position: absolute;
+  left: -20px;
+  top: 40px;
+  color: var(--primary-color);
+  transform:rotate(271deg) ;
+  font-weight: bold;
+}
+
 
 /*mobil*/
 @media (width < 768px) {
 
+  .menu-container {
+    width: var(--width-full);
+  }
 
 .menu-container ul li {
   font-size: 30px;
 }
 
-  .todays_recipes_content {
-width: 100%;
-display: block;  
-margin: 30px;
-  }
+.hero {
+  height:500px;
+}
+
+
+.hero-container {
+  width: var(--width-full);
+}
+
+
+.todays_recipes_content {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+width: var(--width-full);}
   
+.todays_recipes_content_block {
+  display: block;
+  width: 350px;
+  }
+
   .todays_recipes_headline{
     width: var(--width-full);
 }
@@ -1237,6 +1282,7 @@ margin: 30px;
       flex-direction: column;
       align-items: center;
       width: var(--width-full);
+      display: block;
   }
 
   .category_selection_box{
@@ -1245,6 +1291,10 @@ margin: 30px;
   
   .category_selection_headline{
     display: none;
+  }
+
+  .content_area_headline {
+    width: var(--width-full);
   }
 
   .content_image {
@@ -1290,6 +1340,35 @@ margin: 30px;
     padding: 5px 10px 20px 40px;
   }
 
-  .content_area_container_button {}
 
+/* recipes page*/
+.todays_recipes_headline_secondpage_top {
+  width: var(--width-full);
+  margin: 70px 0 0 auto;
+}
+
+.todays_recipes_headline_secondpage {
+  width: var(--width-full);
+border: none;
+}
+
+.hero-search_secondpage {
+  margin: 300px;
+}
+
+.meals_container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.todays_recipes_content_secondpage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: var(--width-full);}
+    
+  .todays_recipes_content_block_secondpage {
+    display: block;
+    width: 350px;
+    }
   }
