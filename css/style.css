@@ -1241,6 +1241,11 @@ list-style-type: none;
   font-weight: bold;
 }
 
+.ingredients_headline_mobile {
+  display: none;
+}
+
+
 
 /*mobil*/
 @media (width < 768px) {
@@ -1371,4 +1376,79 @@ border: none;
     display: block;
     width: 350px;
     }
+  
+    /*boozy brown page*/
+.recipe_details {
+width: var(--width-full);
+display: block;
+}
+
+ .recipe_details_right_image {
+display: block;
+ }
+
+ .recipe-hero-text p {
+  font-size: 40px;
+ }
+
+ .recipe_details_ingredient_block_info_three {
+  font-size: 20px;
+ }
+
+ .recipe_details_ingredient_block_buttons button {
+  font-size: 15px;
+ }
+
+.instruction_contentbox {
+  display: block;
+  margin: 20px;
+  width: var(--width-full);
+}
+
+.instructions_text_box {
+width: var(--width-full);
+}
+
+.instructions_text_box_2 {
+width: var(--width-full);
+}
+
+.ingredients_text_box_2 {
+  width: var(--width-full);
+  }
+
+.instructions {
+  display: block;
+  width: var(--width-full);
+}
+
+.ingredients_text_box {
+  width: var(--width-full);
+}
+
+  .ingredients_headline {
+display: none;
+  }
+
+  .instructions_headline {
+width: var(--width-full);
+display: block;
+margin: 70px auto 20px auto;
+ }
+
+ .ingredients_headline_mobile {
+  height:60px;
+  color:var(--color-white); 
+  margin: 70px auto 40px auto;
+
+  font-size:37px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0 0 20px 0;
+  text-shadow: 1px 1px 3px var(--primary-color);
+  border-bottom: 1px solid var(--color-light);
+  display: block;
+width: var(--width-full);
+  
+ }
   }
