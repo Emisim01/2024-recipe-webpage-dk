@@ -38,6 +38,7 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
+  /* outline: 1px solid red; */
 }
 
 
@@ -1157,8 +1158,7 @@ color: var(--primary-color);
     
     grid-column: 1 / span 6;
     padding: 0 0 20px 0;
-/*     width:var(--width-12col);
- */   /*  margin: 70px auto 20px auto;   */
+
     text-shadow: 1px 1px 3px var(--primary-color);
  }
 
@@ -1172,9 +1172,7 @@ color: var(--primary-color);
 
   grid-column: 9 / span 4;
   padding: 0 0 20px 0;
-/*   width:var(--width-12col); */
-/*   margin: 70px auto 20px auto;
- */
+
   text-shadow: 1px 1px 3px var(--primary-color);
 }
 
@@ -1255,7 +1253,7 @@ list-style-type: none;
   }
 
 .menu-container ul li {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .hero {
@@ -1267,20 +1265,28 @@ list-style-type: none;
   width: var(--width-full);
 }
 
+.hero-text-big-header {
+width:200px ;
+margin-left: 20px;
+}
+
+.hero-text-small-header {
+margin-left: 20px;
+}
+
 
 .todays_recipes_content {
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-gap: 20px;
-width: var(--width-full);}
+  grid-template-columns: 1fr;
+  width: var(--width-full);
+}
   
 .todays_recipes_content_block {
   display: block;
-  width: 350px;
   }
 
   .todays_recipes_headline{
     width: var(--width-full);
+    display: block;
 }
 
   .todays_recipe{
@@ -1346,6 +1352,7 @@ width: var(--width-full);}
   }
 
 
+
 /* recipes page*/
 .todays_recipes_headline_secondpage_top {
   width: var(--width-full);
@@ -1358,23 +1365,24 @@ border: none;
 }
 
 .hero-search_secondpage {
-  margin: 300px;
+width: var(--width-full);
+margin: 80px;
 }
 
 .meals_container {
-  width: 100%;
-  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: var(--width-full);
+  margin: 20px 0 60px 10px;
 }
 
 .todays_recipes_content_secondpage {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  width: var(--width-full);}
+  grid-template-columns: 1fr;
+  width: var(--width-full);
+  }
     
   .todays_recipes_content_block_secondpage {
     display: block;
-    width: 350px;
     }
   
     /*boozy brown page*/
@@ -1401,7 +1409,7 @@ display: block;
 
 .instruction_contentbox {
   display: block;
-  margin: 20px;
+
   width: var(--width-full);
 }
 
@@ -1448,7 +1456,24 @@ margin: 70px auto 20px auto;
   text-shadow: 1px 1px 3px var(--primary-color);
   border-bottom: 1px solid var(--color-light);
   display: block;
-width: var(--width-full);
+  width: var(--width-full);
   
+ }
+
+ .footer_container_big_box_half_left_twobox {
+  margin-right: 30px;
+ }
+
+ .footer_container_big_box_half.right {
+  border-left: none;
+  flex-wrap: wrap;
+font-size: 11px;
+ }
+
+ .footer_container_big_box {
+  /*flex-wrap: wrap;*/
+ }
+ .footer_container_big_box_half {
+  width: 100%;
  }
   }
