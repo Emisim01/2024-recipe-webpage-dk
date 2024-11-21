@@ -1314,6 +1314,7 @@ margin-left: 20px;
 
   .content_area_containers {
     width: 100%;
+    display: block;
   }
 
   .content_area_container_textbox_1 {
@@ -1326,6 +1327,18 @@ margin-left: 20px;
 
   .content_area_container_textbox_3 {
     padding: 5px 10px 20px 40px;
+  }
+
+  .content_area_container_image_bund {
+    display: none;
+  }
+
+  .content_area_container_bund {
+    display: none;
+  }
+
+  .content_area_container_image {
+    display: none;
   }
 
   .content_area_container_textbox_4 {
